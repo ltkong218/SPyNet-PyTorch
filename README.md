@@ -30,13 +30,13 @@ For showing optical flow result, you can simply use
 python spynet.py
 ```
 **img1**
-![img1](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img1.jpg "img1")
+|![img1](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img1.jpg "img1")
 
 **img2**
-![img2](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img2.jpg "img2")
+|![img2](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img2.jpg "img2")
 
 **optical flow**
-![flow](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/eval_result/flow.png "flow")
+|![flow](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/eval_result/flow.png "flow")
 
 
 ## Train
@@ -74,7 +74,7 @@ python main.py --mode 'test' --level 5 --num_workers 0 --batch_size 8 --model_pa
 | **chairsClean** | **EPE:2.657068** |
 |---|---
 | **chairsFinal** | **EPE:2.795757** |
-|---|---
+
 | **myClean** | **EPE:2.659885** |
 ****
 
@@ -85,7 +85,7 @@ With more training time, we can get lower EPE.
 myClean level1, level2, level3 are trained on 2 gtx1080ti, one is used to make and augment data with multiprocessing, the other is used to train the current level model.
 You can use the default augment parameters to train first, but to reach the benchmark, you should set the parameters like
 
-```Shell
+```Bash
 --angle 0 --scale 8 --noise 0 --brightness 0 --contrast 0 --saturation 0 --lighting 0
 ```
 
