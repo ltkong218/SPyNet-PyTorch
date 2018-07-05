@@ -29,15 +29,13 @@ For showing optical flow result, you can simply use
 ```Shell
 python spynet.py
 ```
-img1
+**img1**
+![img1](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img1.jpg "img1")
 
-![img1](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img1.png "img1")
+**img2**
+![img2](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img2.jpg "img2")
 
-img2
-
-![img2](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/data/img2.png "img2")
-
-optical flow
+**optical flow**
 ![flow](https://github.com/ltkong218/SPyNet-PyTorch/raw/master/eval_result/flow.png "flow")
 
 
@@ -72,9 +70,13 @@ python main.py --mode 'test' --level 5 --num_workers 0 --batch_size 8 --model_pa
 
 ## Some results
 
+****
 | **chairsClean** | **EPE:2.657068** |
+|---|---
 | **chairsFinal** | **EPE:2.795757** |
+|---|---
 | **myClean** | **EPE:2.659885** |
+****
 
 
 With more training time, we can get lower EPE.
