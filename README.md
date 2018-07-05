@@ -72,9 +72,8 @@ python main.py --mode 'test' --level 5 --num_workers 0 --batch_size 8 --model_pa
 
 ****
 | **chairsClean** | **EPE:2.657068** |
-|---|---
+| ---------- | -----------|
 | **chairsFinal** | **EPE:2.795757**
-|---|---
 | **myClean** | **EPE:2.659885** |
 ****
 
