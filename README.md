@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SPyNet PyTorch
 ===========================
 PyTorch implementation of Spatial Pyramid Network. Original paper: [Optical Flow Estimation using a Spatial Pyramid Network](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ranjan_Optical_Flow_Estimation_CVPR_2017_paper.pdf).
@@ -92,3 +93,7 @@ For the higher levels are more hard to convergence, we don't use the default aug
 '--lr' first set to 1e-4, then change to the range from 1e-5 to 2e-6 according to the situation.
 
 level1 for about 3 days. level2, level3 for about 2 days. level4, level5 for about 2.5 days.
+=======
+# SPyNet-PyTorch
+SPyNet PyTorch Implementation
+>>>>>>> 154b3369e082fe8cf889cff88d37b6d3c90bdf63
