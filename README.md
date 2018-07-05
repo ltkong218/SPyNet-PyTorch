@@ -61,7 +61,7 @@ run python main.py --mode 'test' --level 5 --num_workers 0 --batch_size 8
 ```
 
 For testing other lua models benchmark, you should copy './models/chairsClean/model5.t7' to the root_dir and rename it as 'model_pretrained.t7'.
-Run
+Run  
 
 ```Shell
 python main.py --mode 'test' --level 5 --num_workers 0 --batch_size 8 --model_path './models/chairsClean' --use_pytorch_model False
